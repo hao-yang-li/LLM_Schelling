@@ -1,0 +1,14 @@
+environment:
+  city: 'Chicago'
+
+llm:
+  model_name: 'Qwen/Qwen2.5-7B-Instruct'
+  platform: 'siliconflow'  
+  api_key: 'Your api key here' 
+
+simulation:
+  total_steps: 10
+
+schelling_model:
+  num_blocks_to_populate: 10 # (Q) 生成CBG数量
+  altruist_ratio: 0.1         # (p) 利他者比例
