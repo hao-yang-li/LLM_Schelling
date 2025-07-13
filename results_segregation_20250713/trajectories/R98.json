@@ -1,0 +1,357 @@
+{
+    "agent_profile": {
+        "agent_id": "R98",
+        "gender": "Male",
+        "race": "White",
+        "agent_type": "altruist",
+        "residence": "170318419001",
+        "income_level": "Upper_Middle",
+        "current_location": "170318419001",
+        "historical_trajectory": [
+            [
+                0,
+                "170318419001"
+            ]
+        ],
+        "visited_locations": {
+            "170318419001": 1
+        }
+    },
+    "initial_residence": "170318419001",
+    "migration_history": [
+        {
+            "step": 0,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170313108001",
+            "reasoning": "As an altruist, I will choose to live in the neighborhood with the highest Social Utility, CBG 170313108001, to maximize the average system social utility, despite the environmental concerns such as graffiti and lack of robust security measures.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.4878048780487805
+                    },
+                    "170311613002": {
+                        "social_utility": 0.38636363636363635
+                    },
+                    "170310503003": {
+                        "social_utility": 0.6375000000000001
+                    },
+                    "170310814022": {
+                        "social_utility": 0.4253731343283582
+                    },
+                    "170310310003": {
+                        "social_utility": 0.27619047619047615
+                    },
+                    "170310104003": {
+                        "social_utility": 0.38999999999999996
+                    },
+                    "170310702002": {
+                        "social_utility": 0.42857142857142855
+                    },
+                    "170315204001": {
+                        "social_utility": 0.4117647058823529
+                    },
+                    "170310812021": {
+                        "social_utility": 0.24324324324324326
+                    },
+                    "170318419001": {
+                        "social_utility": 0.7948717948717949
+                    }
+                },
+                "agent_utility_before": 0.7948717948717949,
+                "agent_utility_after": 0.4878048780487805
+            }
+        },
+        {
+            "step": 1,
+            "decision": "move",
+            "from_cbg": "170313108001",
+            "to_cbg": "170310104003",
+            "reasoning": "As an altruist, I will move to the neighborhood with CBG 170310104003 to increase the average system social utility, even though the social utility score is high, the relatively safe and orderly environment with minimal vulnerability to crime aligns with maximizing overall social well-being.",
+            "utility_context": {
+                "options_considered": {
+                    "170311613002": {
+                        "social_utility": 0.26086956521739124
+                    },
+                    "170318419001": {
+                        "social_utility": 0.4434389140271493
+                    },
+                    "170310503003": {
+                        "social_utility": 0.3194444444444445
+                    },
+                    "170310812021": {
+                        "social_utility": 0.0
+                    },
+                    "170310814022": {
+                        "social_utility": 0.29670329670329665
+                    },
+                    "170310104003": {
+                        "social_utility": 0.5342465753424657
+                    },
+                    "170315204001": {
+                        "social_utility": 0.2647058823529411
+                    },
+                    "170310310003": {
+                        "social_utility": 0.33333333333333337
+                    },
+                    "170313108001": {
+                        "social_utility": 0.21428571428571433
+                    }
+                },
+                "agent_utility_before": 0.21428571428571433,
+                "agent_utility_after": 0.5342465753424657
+            }
+        },
+        {
+            "step": 2,
+            "decision": "move",
+            "from_cbg": "170310104003",
+            "to_cbg": "170318419001",
+            "reasoning": "As an altruist, I will move to the neighborhood with the highest Social Utility, even if the environment summary shows some security vulnerabilities, because improving the average system social utility is my priority.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.23041474654377883
+                    },
+                    "170311613002": {
+                        "social_utility": 0.25605536332179935
+                    },
+                    "170318419001": {
+                        "social_utility": 0.6287878787878789
+                    },
+                    "170310503003": {
+                        "social_utility": 0.9298245614035088
+                    },
+                    "170310814022": {
+                        "social_utility": 0.2727272727272727
+                    },
+                    "170313108001": {
+                        "social_utility": 0.30645161290322576
+                    },
+                    "170310104003": {
+                        "social_utility": 0.4155844155844155
+                    }
+                },
+                "agent_utility_before": 0.4155844155844155,
+                "agent_utility_after": 0.6287878787878789
+            }
+        },
+        {
+            "step": 3,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170313108001",
+            "reasoning": "As an altruist, I will move to the neighborhood with the lowest Social Utility, CBG 170313108001, to potentially increase the average social utility of the system, despite its environmental challenges.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.15254237288135597
+                    },
+                    "170311613002": {
+                        "social_utility": 0.2655737704918033
+                    },
+                    "170310503003": {
+                        "social_utility": 0.33333333333333337
+                    },
+                    "170310104003": {
+                        "social_utility": 0.6172839506172839
+                    },
+                    "170315204001": {
+                        "social_utility": 0.24666666666666665
+                    },
+                    "170318419001": {
+                        "social_utility": 0.6355140186915887
+                    }
+                },
+                "agent_utility_before": 0.6355140186915887,
+                "agent_utility_after": 0.15254237288135597
+            }
+        },
+        {
+            "step": 4,
+            "decision": "move",
+            "from_cbg": "170313108001",
+            "to_cbg": "170310104003",
+            "reasoning": "As an altruist, I will move to CBG 170310104003 to increase the average system social utility. The neighborhood has a relatively high social utility and demonstrates overall good maintenance, which aligns with promoting greater social cohesion and well-being.",
+            "utility_context": {
+                "options_considered": {
+                    "170311613002": {
+                        "social_utility": 0.2554347826086957
+                    },
+                    "170318419001": {
+                        "social_utility": 0.3876651982378855
+                    },
+                    "170310503003": {
+                        "social_utility": 0.44736842105263164
+                    },
+                    "170310104003": {
+                        "social_utility": 0.644927536231884
+                    },
+                    "170315204001": {
+                        "social_utility": 0.38636363636363635
+                    },
+                    "170313108001": {
+                        "social_utility": 0.3571428571428572
+                    }
+                },
+                "agent_utility_before": 0.3571428571428572,
+                "agent_utility_after": 0.644927536231884
+            }
+        },
+        {
+            "step": 5,
+            "decision": "move",
+            "from_cbg": "170310104003",
+            "to_cbg": "170318419001",
+            "reasoning": "As an altruist, I will move to CBG 170318419001 to increase the average system social utility, despite some environmental concerns, because the high social utility score indicates a significant positive impact on social cohesion.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.21794871794871795
+                    },
+                    "170311613002": {
+                        "social_utility": 0.24354243542435428
+                    },
+                    "170318419001": {
+                        "social_utility": 0.8382352941176471
+                    },
+                    "170310503003": {
+                        "social_utility": 0.16666666666666663
+                    },
+                    "170315204001": {
+                        "social_utility": 0.328042328042328
+                    },
+                    "170310104003": {
+                        "social_utility": 0.6454849498327759
+                    }
+                },
+                "agent_utility_before": 0.6454849498327759,
+                "agent_utility_after": 0.8382352941176471
+            }
+        },
+        {
+            "step": 6,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170313108001",
+            "reasoning": "As an altruist, I will move to CBG 170313108001 to significantly increase the average system social utility, despite the challenging environmental conditions, due to the current low average utility score and the potential for positive social impact.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.0
+                    },
+                    "170311613002": {
+                        "social_utility": 0.24803149606299213
+                    },
+                    "170310503003": {
+                        "social_utility": 0.21383647798742134
+                    },
+                    "170310104003": {
+                        "social_utility": 0.8227848101265823
+                    },
+                    "170315204001": {
+                        "social_utility": 0.26086956521739135
+                    },
+                    "170318419001": {
+                        "social_utility": 0.5725806451612904
+                    }
+                },
+                "agent_utility_before": 0.5725806451612904,
+                "agent_utility_after": 0.0
+            }
+        },
+        {
+            "step": 7,
+            "decision": "move",
+            "from_cbg": "170313108001",
+            "to_cbg": "170318419001",
+            "reasoning": "As an altruist, I will choose CBG 170318419001, despite its mixed environment, because its high Social Utility will contribute positively to the average system social utility, aligning with my goal to maximize overall social well-being.",
+            "utility_context": {
+                "options_considered": {
+                    "170311613002": {
+                        "social_utility": 0.2598870056497175
+                    },
+                    "170318419001": {
+                        "social_utility": 0.763157894736842
+                    },
+                    "170310503003": {
+                        "social_utility": 0.3648648648648649
+                    },
+                    "170310104003": {
+                        "social_utility": 0.656934306569343
+                    },
+                    "170315204001": {
+                        "social_utility": 0.2142857142857143
+                    },
+                    "170313108001": {
+                        "social_utility": 0.4482758620689655
+                    }
+                },
+                "agent_utility_before": 0.4482758620689655,
+                "agent_utility_after": 0.763157894736842
+            }
+        },
+        {
+            "step": 8,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170310104003",
+            "reasoning": "As an altruist, I will move to the neighborhood with CBG 170310104003, as it has a higher Social Utility compared to my current neighborhood, which will contribute to increasing the average system social utility.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.3913043478260869
+                    },
+                    "170311613002": {
+                        "social_utility": 0.22977346278317157
+                    },
+                    "170310503003": {
+                        "social_utility": 0.32653061224489793
+                    },
+                    "170310104003": {
+                        "social_utility": 0.5151515151515151
+                    },
+                    "170313108001": {
+                        "social_utility": 0.3513513513513513
+                    },
+                    "170318419001": {
+                        "social_utility": 0.6713615023474179
+                    }
+                },
+                "agent_utility_before": 0.6713615023474179,
+                "agent_utility_after": 0.5151515151515151
+            }
+        },
+        {
+            "step": 9,
+            "decision": "move",
+            "from_cbg": "170310104003",
+            "to_cbg": "170310503003",
+            "reasoning": "As an altruist, I will move to the neighborhood with the highest Social Utility, CBG 170310503003, to maximize the average system social utility.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.2478386167146974
+                    },
+                    "170311613002": {
+                        "social_utility": 0.14912280701754388
+                    },
+                    "170318419001": {
+                        "social_utility": 0.5255474452554744
+                    },
+                    "170310503003": {
+                        "social_utility": 0.7827868852459017
+                    },
+                    "170313108001": {
+                        "social_utility": 0.25
+                    },
+                    "170310104003": {
+                        "social_utility": 0.3157894736842105
+                    }
+                },
+                "agent_utility_before": 0.3157894736842105,
+                "agent_utility_after": 0.7827868852459017
+            }
+        }
+    ]
+}

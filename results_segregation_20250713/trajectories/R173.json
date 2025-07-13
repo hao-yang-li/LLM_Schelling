@@ -1,0 +1,357 @@
+{
+    "agent_profile": {
+        "agent_id": "R173",
+        "gender": "Male",
+        "race": "White",
+        "agent_type": "egoist",
+        "residence": "170318419001",
+        "income_level": "Upper_Middle",
+        "current_location": "170318419001",
+        "historical_trajectory": [
+            [
+                0,
+                "170318419001"
+            ]
+        ],
+        "visited_locations": {
+            "170318419001": 1
+        }
+    },
+    "initial_residence": "170318419001",
+    "migration_history": [
+        {
+            "step": 0,
+            "decision": "stay",
+            "from_cbg": "170318419001",
+            "to_cbg": "170318419001",
+            "reasoning": "As an egoist, I am moving to the neighborhood with the highest Social Utility, despite the lack of visible security measures, as the environment is generally well-kept, and the potential social benefits outweigh the environmental risks.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.5
+                    },
+                    "170311613002": {
+                        "social_utility": 0.38636363636363635
+                    },
+                    "170310503003": {
+                        "social_utility": 0.6956521739130435
+                    },
+                    "170310814022": {
+                        "social_utility": 0.4296296296296296
+                    },
+                    "170310310003": {
+                        "social_utility": 0.27619047619047615
+                    },
+                    "170310104003": {
+                        "social_utility": 0.396039603960396
+                    },
+                    "170310702002": {
+                        "social_utility": 0.42857142857142855
+                    },
+                    "170315204001": {
+                        "social_utility": 0.39473684210526316
+                    },
+                    "170310812021": {
+                        "social_utility": 0.24324324324324326
+                    },
+                    "170318419001": {
+                        "social_utility": 0.8115942028985507
+                    }
+                },
+                "agent_utility_before": 0.8115942028985507,
+                "agent_utility_after": 0.8115942028985507
+            }
+        },
+        {
+            "step": 1,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170310104003",
+            "reasoning": "As an egoist, I am prioritizing the highest Social Utility, and although the environment has limited visible security, the overall clean and orderly appearance suggests a relatively safe and comfortable living condition.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.2109375
+                    },
+                    "170311613002": {
+                        "social_utility": 0.28033472803347287
+                    },
+                    "170310503003": {
+                        "social_utility": 0.23076923076923078
+                    },
+                    "170310812021": {
+                        "social_utility": 0.0
+                    },
+                    "170310814022": {
+                        "social_utility": 0.2924528301886793
+                    },
+                    "170310104003": {
+                        "social_utility": 0.5238095238095238
+                    },
+                    "170315204001": {
+                        "social_utility": 0.2962962962962963
+                    },
+                    "170310310003": {
+                        "social_utility": 0.33333333333333337
+                    },
+                    "170318419001": {
+                        "social_utility": 0.42156862745098034
+                    }
+                },
+                "agent_utility_before": 0.42156862745098034,
+                "agent_utility_after": 0.5238095238095238
+            }
+        },
+        {
+            "step": 2,
+            "decision": "move",
+            "from_cbg": "170310104003",
+            "to_cbg": "170318419001",
+            "reasoning": "As an egoist, I prioritize my social comfort, which is significantly higher in CBG 170318419001, even though the lack of robust security measures could pose some concerns. The high Social Utility score outweighs the environmental vulnerabilities.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.23660714285714282
+                    },
+                    "170311613002": {
+                        "social_utility": 0.24398625429553267
+                    },
+                    "170318419001": {
+                        "social_utility": 0.5533333333333333
+                    },
+                    "170310503003": {
+                        "social_utility": 0.9054054054054055
+                    },
+                    "170310814022": {
+                        "social_utility": 0.16666666666666663
+                    },
+                    "170313108001": {
+                        "social_utility": 0.2923076923076923
+                    },
+                    "170310104003": {
+                        "social_utility": 0.31666666666666665
+                    }
+                },
+                "agent_utility_before": 0.31666666666666665,
+                "agent_utility_after": 0.5533333333333333
+            }
+        },
+        {
+            "step": 3,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170310104003",
+            "reasoning": "As an egoist, I am moving to the neighborhood with the highest Social Utility while also considering the relatively safe and well-maintained environment, despite some concerns about security infrastructure.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.16
+                    },
+                    "170311613002": {
+                        "social_utility": 0.2721518987341772
+                    },
+                    "170310503003": {
+                        "social_utility": 0.23204419889502764
+                    },
+                    "170310104003": {
+                        "social_utility": 0.6504854368932039
+                    },
+                    "170315204001": {
+                        "social_utility": 0.23611111111111108
+                    },
+                    "170318419001": {
+                        "social_utility": 0.6417910447761194
+                    }
+                },
+                "agent_utility_before": 0.6417910447761194,
+                "agent_utility_after": 0.6504854368932039
+            }
+        },
+        {
+            "step": 4,
+            "decision": "stay",
+            "from_cbg": "170310104003",
+            "to_cbg": "170310104003",
+            "reasoning": "As an egoist, I prioritize high social utility and a generally safe environment. While the security measures are limited, the presence of regular pedestrian activity and a clean environment contribute to a sense of safety, making this neighborhood the best choice.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.36
+                    },
+                    "170311613002": {
+                        "social_utility": 0.2513661202185792
+                    },
+                    "170318419001": {
+                        "social_utility": 0.32093023255813957
+                    },
+                    "170310503003": {
+                        "social_utility": 0.3939393939393939
+                    },
+                    "170315204001": {
+                        "social_utility": 0.3953488372093023
+                    },
+                    "170310104003": {
+                        "social_utility": 0.6527777777777778
+                    }
+                },
+                "agent_utility_before": 0.6527777777777778,
+                "agent_utility_after": 0.6527777777777778
+            }
+        },
+        {
+            "step": 5,
+            "decision": "move",
+            "from_cbg": "170310104003",
+            "to_cbg": "170318419001",
+            "reasoning": "As an egoist, I prioritize high Social Utility, which is significantly higher in CBG 170318419001, despite the lack of robust security measures in the area.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.33502538071065985
+                    },
+                    "170311613002": {
+                        "social_utility": 0.2471910112359551
+                    },
+                    "170318419001": {
+                        "social_utility": 0.7924528301886793
+                    },
+                    "170310503003": {
+                        "social_utility": 0.25
+                    },
+                    "170313108001": {
+                        "social_utility": 0.20408163265306123
+                    },
+                    "170310104003": {
+                        "social_utility": 0.656934306569343
+                    }
+                },
+                "agent_utility_before": 0.656934306569343,
+                "agent_utility_after": 0.7924528301886793
+            }
+        },
+        {
+            "step": 6,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170313108001",
+            "reasoning": "As an egoist, I aim to maximize my social comfort and the Social Utility score of 0.9231 is significantly higher than other options, which outweighs the environmental concerns.",
+            "utility_context": {
+                "options_considered": {
+                    "170313108001": {
+                        "social_utility": 0.9230769230769231
+                    },
+                    "170311613002": {
+                        "social_utility": 0.248
+                    },
+                    "170310503003": {
+                        "social_utility": 0.23952095808383234
+                    },
+                    "170310104003": {
+                        "social_utility": 0.7021276595744681
+                    },
+                    "170315204001": {
+                        "social_utility": 0.2537878787878788
+                    },
+                    "170318419001": {
+                        "social_utility": 0.5265700483091788
+                    }
+                },
+                "agent_utility_before": 0.5265700483091788,
+                "agent_utility_after": 0.9230769230769231
+            }
+        },
+        {
+            "step": 7,
+            "decision": "move",
+            "from_cbg": "170313108001",
+            "to_cbg": "170318419001",
+            "reasoning": "As an egoist, I am prioritizing the neighborhood with the highest Social Utility, despite the noted lack of robust security measures, because it offers the best potential social comfort, aligning with my self-interest.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.20370370370370372
+                    },
+                    "170311613002": {
+                        "social_utility": 0.26098901098901095
+                    },
+                    "170318419001": {
+                        "social_utility": 0.7896995708154506
+                    },
+                    "170310503003": {
+                        "social_utility": 0.32835820895522383
+                    },
+                    "170310104003": {
+                        "social_utility": 0.5573770491803278
+                    },
+                    "170313108001": {
+                        "social_utility": 0.3191489361702128
+                    }
+                },
+                "agent_utility_before": 0.3191489361702128,
+                "agent_utility_after": 0.7896995708154506
+            }
+        },
+        {
+            "step": 8,
+            "decision": "move",
+            "from_cbg": "170318419001",
+            "to_cbg": "170310104003",
+            "reasoning": "As an egoist, I am prioritizing a high Social Utility score and a relatively safe environment, making the neighborhood with a score of 0.7097 a clear choice.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.4038461538461538
+                    },
+                    "170311613002": {
+                        "social_utility": 0.2206896551724138
+                    },
+                    "170310503003": {
+                        "social_utility": 0.43809523809523815
+                    },
+                    "170310104003": {
+                        "social_utility": 0.7096774193548387
+                    },
+                    "170313108001": {
+                        "social_utility": 0.37037037037037035
+                    },
+                    "170318419001": {
+                        "social_utility": 0.635036496350365
+                    }
+                },
+                "agent_utility_before": 0.635036496350365,
+                "agent_utility_after": 0.7096774193548387
+            }
+        },
+        {
+            "step": 9,
+            "decision": "move",
+            "from_cbg": "170310104003",
+            "to_cbg": "170310503003",
+            "reasoning": "As an egoist, I prioritize high Social Utility, but also consider the relatively good environment with minimal security concerns, making this the best choice for my personal well-being.",
+            "utility_context": {
+                "options_considered": {
+                    "170315204001": {
+                        "social_utility": 0.24661246612466123
+                    },
+                    "170311613002": {
+                        "social_utility": 0.1351351351351351
+                    },
+                    "170318419001": {
+                        "social_utility": 0.5225225225225225
+                    },
+                    "170310503003": {
+                        "social_utility": 0.7686567164179104
+                    },
+                    "170313108001": {
+                        "social_utility": 0.2558139534883721
+                    },
+                    "170310104003": {
+                        "social_utility": 0.30000000000000004
+                    }
+                },
+                "agent_utility_before": 0.30000000000000004,
+                "agent_utility_after": 0.7686567164179104
+            }
+        }
+    ]
+}
